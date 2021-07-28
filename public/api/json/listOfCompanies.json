@@ -1,0 +1,202 @@
+[
+  {
+    "id": "78ad64ba-7464-4866-8691-9766458e46a9",
+    "company": "Weber Inc",
+    "address": {
+      "city": "Ryannside",
+      "street": "Zemlak Route",
+      "streetAddress": "78822 Lueilwitz Plains"
+    },
+    "ratings": 10
+  },
+  {
+    "id": "9257f0a7-1850-4cd6-8609-154888a23c13",
+    "company": "Satterfield Inc",
+    "address": {
+      "city": "Boulder",
+      "street": "Thomas Stream",
+      "streetAddress": "062 Deshawn Forges"
+    },
+    "ratings": 7
+  },
+  {
+    "id": "141e0c0f-96af-4645-aaf4-f1444db18858",
+    "company": "Glover, Prosacco and Toy",
+    "address": {
+      "city": "Coral Gables",
+      "street": "Cummings Drive",
+      "streetAddress": "763 Reichert Rapids"
+    },
+    "ratings": 2
+  },
+  {
+    "id": "badb50a6-0345-474b-a58b-997040000c87",
+    "company": "Mitchell - Frami",
+    "address": {
+      "city": "Port Jonatan",
+      "street": "Nyah Union",
+      "streetAddress": "935 Reynold Knolls"
+    },
+    "ratings": 10
+  },
+  {
+    "id": "e376bf6a-7ca0-4004-9609-f062d87fa215",
+    "company": "Osinski, Gulgowski and Conroy",
+    "address": {
+      "city": "Lake Ludie",
+      "street": "Kuhn Roads",
+      "streetAddress": "668 Prosacco Crest"
+    },
+    "ratings": 4
+  },
+  {
+    "id": "ebfdf15d-346d-4b86-9eae-7f0e69acf093",
+    "company": "Considine Inc",
+    "address": {
+      "city": "Runolfssonmouth",
+      "street": "Camren Mall",
+      "streetAddress": "5344 Reilly Lane"
+    },
+    "ratings": 10
+  },
+  {
+    "id": "e84170cb-7fc0-4b9e-a629-dd0f94efb7c2",
+    "company": "Boyer - Bahringer",
+    "address": {
+      "city": "Lake Waldofort",
+      "street": "Homenick Spur",
+      "streetAddress": "05854 Rosalyn Shore"
+    },
+    "ratings": 1
+  },
+  {
+    "id": "b2148aa0-c76e-4f2c-a989-419f65ea7266",
+    "company": "Koss and Sons",
+    "address": {
+      "city": "Homenickberg",
+      "street": "Maggio Plains",
+      "streetAddress": "858 Adella Estate"
+    },
+    "ratings": 2
+  },
+  {
+    "id": "220a11a9-70dd-4ec2-a134-5ee65738e7e7",
+    "company": "Lakin and Sons",
+    "address": {
+      "city": "New Mya",
+      "street": "Moore Mountains",
+      "streetAddress": "144 Feil Fall"
+    },
+    "ratings": 7
+  },
+  {
+    "id": "8c1c55eb-917c-41e3-9895-ba24aa821cfb",
+    "company": "Gaylord - Daniel",
+    "address": {
+      "city": "Turlock",
+      "street": "Raynor Run",
+      "streetAddress": "40018 Arvel Knoll"
+    },
+    "ratings": 5
+  },
+  {
+    "id": "901206e3-569f-4c63-8943-df7fe63d504f",
+    "company": "Stark, Turner and Schmeler",
+    "address": {
+      "city": "Anthonychester",
+      "street": "Cole Path",
+      "streetAddress": "0993 O'Connell Drives"
+    },
+    "ratings": 1
+  },
+  {
+    "id": "c6e66016-661d-47a7-ac1e-fe852f5c6b93",
+    "company": "Hand and Sons",
+    "address": {
+      "city": "Loweview",
+      "street": "Gracie Rue",
+      "streetAddress": "448 Graham Coves"
+    },
+    "ratings": 7
+  },
+  {
+    "id": "d78ee150-3b9c-4ced-974e-fb7ebcd7dec3",
+    "company": "Pacocha LLC",
+    "address": {
+      "city": "Berthaton",
+      "street": "Kohler Centers",
+      "streetAddress": "486 Daniella Hollow"
+    },
+    "ratings": 2
+  },
+  {
+    "id": "2e3daa70-b049-49f2-943f-a0fa75ebe527",
+    "company": "Hahn, Greenfelder and Leannon",
+    "address": {
+      "city": "Birmingham",
+      "street": "McKenzie Views",
+      "streetAddress": "114 Lesch Spring"
+    },
+    "ratings": 10
+  },
+  {
+    "id": "9ebc064d-232b-46d9-9871-884710f85bf7",
+    "company": "Stoltenberg LLC",
+    "address": {
+      "city": "Welchfurt",
+      "street": "Jakubowski Junction",
+      "streetAddress": "98334 Ed Manor"
+    },
+    "ratings": 5
+  },
+  {
+    "id": "d4a79ae4-cf12-40bc-a012-52cf52373537",
+    "company": "Bode, Schaden and Rippin",
+    "address": {
+      "city": "New Mathias",
+      "street": "Gonzalo Manor",
+      "streetAddress": "84488 Cronin Rest"
+    },
+    "ratings": 10
+  },
+  {
+    "id": "aeec41f9-101c-47fa-8ece-11f74fdcc29e",
+    "company": "Schamberger and Sons",
+    "address": {
+      "city": "Kuphalport",
+      "street": "Hessel Circles",
+      "streetAddress": "68006 Amely Trail"
+    },
+    "ratings": 6
+  },
+  {
+    "id": "4dfcafd7-5a2b-45bc-b949-bc2a62649f90",
+    "company": "Volkman - Zemlak",
+    "address": {
+      "city": "Kuvalisburgh",
+      "street": "Emma Parkways",
+      "streetAddress": "78462 Mose Landing"
+    },
+    "ratings": 2
+  },
+  {
+    "id": "1718a30b-03bd-4e10-b80c-e376e9600166",
+    "company": "Stamm - Pfeffer",
+    "address": {
+      "city": "Christianafort",
+      "street": "Ramon Mission",
+      "streetAddress": "108 Cummings Hills"
+    },
+    "ratings": 9
+  },
+  {
+    "id": "b215a491-3fa4-4af6-a62e-b61670671227",
+    "company": "West, Stroman and Stokes",
+    "address": {
+      "city": "North Romanland",
+      "street": "McClure Street",
+      "streetAddress": "814 Abe Junction"
+    },
+    "ratings": 1
+  }
+]
