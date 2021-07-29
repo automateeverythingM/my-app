@@ -1,56 +1,41 @@
-import React, { useEffect, useState } from "react";
-import { ICompany } from "./types/companies";
+import { useState } from "react";
+import { NumberBox } from "./components/NumberBox";
+import { generateArray, generateRandomNumber } from "./helpers/generator";
+
 
 function App() {
-  const [companies, setCompanies] = useState<ICompany[]>();
-  const [ratting, setRatting] = useState<number>(
-    Math.floor(Math.random() * 10) + 1
-  );
+  
+  const [firstArray, setFirstArray] = useState<number[]>(generateArray(15, -15,  10));
+  const [secondArray, setSecondArray] = useState<number[]>(generateArray(15, -15,  10));
+  const [target, setTarget] = useState<number>();
 
-  useEffect(() => {
-    getCompanies();
-  }, []);
+  function generateTarget() {
+    setTarget(generateRandomNumber(15, -15));
+  }
 
-  const getCompanies = async () => {
-    const response = await fetch("./api/json/listOfCompanies.json");
-    const companies: ICompany[] = await response.json();
-    setCompanies(companies);
-  };
+  function generateNewArrays() {
+    setFirstArray(generateArray(15, -15, 10));
+    setSecondArray(generateArray(15, -15, 10));
+  }
 
-  const handleOnNumberChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const number = event.target.value;
-    setRatting(+number);
-    
-  };
 
-  const moveCompanyWithRatting = () => {
-    
-  };
 
   return (
-    <div className="App">
-      <div className="row">
-        <h3>Move all companies with selected rating to end of list</h3>
-        <label className="fw-bold" htmlFor="company-ratting">
-          Numbers between 1 and 10 include 10
-        </label>
-        <input
-          id="company-ratting"
-          className="p-3 col-3"
-          type="number"
-          min="1"
-          max="10"
-          step="1"
-          onChange={handleOnNumberChange}
-          value={ratting}
-        />
+    <div className="App row container mx-auto">
+      <div className="col-3 d-flex flex-column justify-content-center align-items-center">
+        {firstArray?.map((number)=><NumberBox num={number}/>)}
       </div>
+      <div className="col-6 d-flex flex-column vh-100 align-items-center justify-content-center fw-bold" >
 
-
-
-      <button className="d-block btn btn-primary mt-5" onClick={moveCompanyWithRatting}>
-        Move companies with ratting
-      </button>
+          <div className="d-block"  style={{fontSize:"8rem"}}>
+            {target}
+          </div>
+          <button onClick={generateTarget} className="btn btn-warning d-block">Generate Target</button>
+          <button onClick={generateNewArrays} className="btn btn-warning d-block">Generate New Arrays</button>
+      </div>
+      <div className="col-3  d-flex flex-column justify-content-center align-items-center">
+      {secondArray?.map((number)=><NumberBox num={number}/>)}
+      </div>
     </div>
   );
 }
