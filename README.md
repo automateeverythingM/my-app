@@ -13,6 +13,5 @@ Input to do end of list.
 ## What you need to do?
   - Display list of companies
   - Make logic for moving companies with selected rating in
-    Input to end of list this action should happen on button click..
+    Input to end of list, this action should happen on button click..
   
-
